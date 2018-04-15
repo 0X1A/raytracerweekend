@@ -1,0 +1,11 @@
+[package]
+name = "raytracer-weekend"
+version = "0.1.0"
+authors = ["Alberto Corona <albcoron@gmail.com>"]
+
+[dependencies]
+rand = "*"
+
+[lib]
+name = "tracer"
+path = "lib/lib.rs"
